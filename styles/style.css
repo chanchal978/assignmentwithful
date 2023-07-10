@@ -1,0 +1,75 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner {
+    height: 100vh;
+    background-color: #E554731A;
+}
+
+
+.banner-nav {
+    height: 10vh;
+    display: flex;
+    padding: 30px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    color: #181717;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.nav-logo:hover {
+    color: #d87272;
+    transition: 0.2s;
+}
+
+.nav-logo span {
+    color: #272727;
+}
+
+.nav-menus ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-menus ul li {
+    list-style: none;
+}
+
+.nav-menus ul li a {
+    text-decoration: none;
+    color: #E55473;
+    font-size: 1.1rem;
+}
+
+.nav-menus ul li a:hover {
+    color: #e791a3;
+    transition: 0.2s;
+}
+
+
+.banner-container {
+    padding: 0px 150px;
+    height: 90vh;
+    background: url("../assets/pngwing\ 10.png");
+    background-repeat: no-repeat;
+    background-size: 430px 550px;
+    background-position: bottom 0px right 170px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-infos h1 {
+    font-size: 55px;
+    color: #272727;
+    margin-bottom: 25px;
+}
