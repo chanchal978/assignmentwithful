@@ -248,3 +248,71 @@
 .hot-deal-images img {
     width: 220px;
 }
+.instagram-section {
+    height: 100vh;
+    background-color: white;
+    margin: 0px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.insta-info {
+    text-align: center;
+}
+
+.insta-info h2 {
+    color: #272727;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.insta-info p {
+    color: rgba(78, 78, 78, 0.6);
+    font-size: 0.8rem;
+    line-height: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.insta-boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.boxinsta {
+    width: 250px;
+    height: 320px;
+}
+
+.boxinsta:hover {
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.insta-boxes {
+    background: url("../assets/Flower\ 01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insta-boxes-2 {
+    background: url("../assets/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insta-boxes-3 {
+    background: url("../assets/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insta-boxes-4 {
+    background: url("../assets/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
