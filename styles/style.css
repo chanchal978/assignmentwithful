@@ -125,17 +125,18 @@
     margin-bottom: 10px;
 }
 
-.featured-display {
+.featured-display{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
 }
 
-.flower-box {
+.flower-box{
     width: 320px;
     height: 360px;
     border-radius: 300px 300px 0px 0px;
-    gap: 5px;
+    
 }
 
 .flower-box:hover {
@@ -315,4 +316,57 @@
     background: url("../assets/Rectangle\ 6.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.latest-deal-container {
+    height: 50vh;
+    background: url("../assets/Rectangle\ 9.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0px 150px 0px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.latest-deal-container h2 {
+    color: #272727;
+    font-size: 35px;
+}
+
+.latest-deal-container p {
+    color: rgba(78, 78, 78, 0.6);
+    font-size: 0.8rem;
+    line-height: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.deal-inputs {
+    width: 80%;
+}
+
+.latest-deal-container input {
+    width: 70%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.latest-deal-container button {
+    padding: 15px 25px;
+    border-radius: 8px;
+    background-color: #E55473;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.latest-deal-container button:hover {
+    background-color: #e791a3;
+    transition: 0.2s;
 }
