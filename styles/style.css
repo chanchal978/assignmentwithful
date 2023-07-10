@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,18 +14,15 @@
 
 
 
-.nav-logo {
+.logo {
     color: #1d1b1b;
     font-size: 1.3rem;
     cursor: pointer;
 }
 
-.nav-logo:hover {
-    color: #f08585;
-    transition: 0.2s;
-}
 
-.nav-logo span {
+
+.logo span {
     color: #e47c7c;
 }
 
@@ -33,10 +30,10 @@
 
 .banner-container {
     padding: 0px 150px;
-    height: 90vh;
+    height: 96vh;
     background: url("../assets/pngwing\ 10.png");
     background-repeat: no-repeat;
-    background-size: 430px 550px;
+    background-size: 600px 650px;
     background-position: bottom 0px right 170px;
     display: flex;
     align-items: center;
@@ -64,7 +61,7 @@
     cursor: pointer;
 }
 
-.banner-infos button:hover {
+.banner-infos button: {
     background-color: #e791a3;
     transition: 0.2s;
 }
@@ -102,21 +99,19 @@
 .featured-display{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 8px;
     
 }
 
 .flower-box{
-    width: 320px;
-    height: 360px;
+    width: 500px;
+    height: 560px;
     border-radius: 300px 300px 0px 0px;
     
 }
 
-.flower-box:hover {
-    opacity: 0.7;
-    transition: 0.2s;
-}
+
 
 .box1 {
     background: url("../assets/pngwing\ 6.png");
@@ -129,8 +124,8 @@
 .box2 {
     background: url("../assets/pngwing\ 5.png");
     background-color: rgba(5, 151, 160, 0.15);
-    background-position: center;
-    background-size: 260px 260px;
+    background-position: center bottom;
+    background-size: 300px 300px;
     background-repeat: no-repeat;
 }
 
@@ -152,7 +147,7 @@
     color: #272727;
 }
 
-.flower-link a:hover {
+.flower-link a: {
     color: #E55473;
     transition: 0.2s;
 }
@@ -163,10 +158,10 @@
     background-color: rgba(39, 39, 39, 0.05);
     margin: 70px 150px 100px 150px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 200px;
 }
 
 .support-container p {
@@ -185,7 +180,7 @@
 }
 .hot-deal-info p {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     line-height: 20px;
     font-weight: normal;
     margin-bottom: 20px;
@@ -200,7 +195,7 @@
     cursor: pointer;
 }
 
-.hot-deal-info button:hover {
+.hot-deal-info button: {
     background-color: #e791a3;
     transition: 0.2s;
 }
@@ -256,18 +251,15 @@
 .insta-boxes {
     display: flex;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .boxinsta {
-    width: 250px;
-    height: 320px;
+    width: 300px;
+    height: 380px;
 }
 
-.boxinsta:hover {
-    opacity: 0.7;
-    transition: 0.2s;
-}
+
 
 
 .latest-deal-container {
@@ -275,7 +267,7 @@
     background: url("../assets/Rectangle\ 9.png");
     background-size: cover;
     background-position: center;
-    margin: 0px 150px 0px 150px;
+    margin: 0px 300px 0px 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -318,12 +310,8 @@
     margin-left: 10px;
 }
 
-.latest-deal-container button:hover {
-    background-color: #e791a3;
-    transition: 0.2s;
 
-}
-.insta-boxes {
+.insta-boxes-1 {
     background: url("../assets/Flower\ 01.png");
     background-repeat: no-repeat;
     background-size: cover;
