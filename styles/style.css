@@ -13,48 +13,22 @@
 }
 
 
-.banner-nav {
-    height: 10vh;
-    display: flex;
-    padding: 30px 150px;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .nav-logo {
-    color: #181717;
+    color: #1d1b1b;
     font-size: 1.3rem;
     cursor: pointer;
 }
 
 .nav-logo:hover {
-    color: #d87272;
+    color: #f08585;
     transition: 0.2s;
 }
 
 .nav-logo span {
-    color: #272727;
+    color: #e47c7c;
 }
 
-.nav-menus ul {
-    display: flex;
-    gap: 30px;
-}
-
-.nav-menus ul li {
-    list-style: none;
-}
-
-.nav-menus ul li a {
-    text-decoration: none;
-    color: #E55473;
-    font-size: 1.1rem;
-}
-
-.nav-menus ul li a:hover {
-    color: #e791a3;
-    transition: 0.2s;
-}
 
 
 .banner-container {
@@ -83,7 +57,7 @@
 
 .banner-infos button {
     padding: 15px 25px;
-    border-radius: 8px;
+    border-radius: 5px;
     background-color: #E55473;
     border: none;
     color: white;
@@ -95,7 +69,7 @@
     transition: 0.2s;
 }
 
-/* FEATURED SECTION  */
+
 .featured-section {
     height: 100vh;
     background-color: white;
@@ -209,21 +183,6 @@
     align-items: center;
     padding: 0px 200px;
 }
-
-.hot-deal-info {
-    text-align: center;
-}
-
-.hot-deal-info h2 {
-    color: #272727;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.hot-deal-info span {
-    color: #E55473;
-}
-
 .hot-deal-info p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 0.8rem;
@@ -245,6 +204,22 @@
     background-color: #e791a3;
     transition: 0.2s;
 }
+
+.hot-deal-info {
+    text-align: center;
+}
+
+.hot-deal-info h2 {
+    color: #272727;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.hot-deal-info span {
+    color: #E55473;
+}
+
+
 
 .hot-deal-images img {
     width: 220px;
@@ -294,29 +269,6 @@
     transition: 0.2s;
 }
 
-.insta-boxes {
-    background: url("../assets/Flower\ 01.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.insta-boxes-2 {
-    background: url("../assets/Rectangle\ 4.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.insta-boxes-3 {
-    background: url("../assets/Rectangle\ 5.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.insta-boxes-4 {
-    background: url("../assets/Rectangle\ 6.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .latest-deal-container {
     height: 50vh;
@@ -369,4 +321,61 @@
 .latest-deal-container button:hover {
     background-color: #e791a3;
     transition: 0.2s;
+
+}
+.insta-boxes {
+    background: url("../assets/Flower\ 01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insta-boxes-2 {
+    background: url("../assets/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insta-boxes-3 {
+    background: url("../assets/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insta-boxes-4 {
+    background: url("../assets/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer {
+    height: 50vh;
+    background-color: #111010;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+footer h2 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer span {
+    color: #E55473;
+}
+
+footer p {
+    font-size: 0.8rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.90);
+    line-height: 20px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 0.6rem;
 }
