@@ -135,6 +135,7 @@
     width: 320px;
     height: 360px;
     border-radius: 300px 300px 0px 0px;
+    gap: 5px;
 }
 
 .flower-box:hover {
@@ -169,7 +170,7 @@
 .flower-link {
     text-align: center;
     margin-top: 10px;
-    gap: 5px;
+    
 }
 
 .flower-link a {
@@ -187,7 +188,7 @@
     background-color: rgba(39, 39, 39, 0.05);
     margin: 70px 150px 100px 150px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     gap: 20px;
@@ -197,4 +198,53 @@
     color: rgba(39, 39, 39, 0.80);
     font-size: 0.9rem;
     margin-top: 10px;
+}
+.hot-deal {
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 70vh;
+    margin: 70px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 200px;
+}
+
+.hot-deal-info {
+    text-align: center;
+}
+
+.hot-deal-info h2 {
+    color: #272727;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.hot-deal-info span {
+    color: #E55473;
+}
+
+.hot-deal-info p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 0.8rem;
+    line-height: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.hot-deal-info button {
+    padding: 15px 25px;
+    border-radius: 8px;
+    background-color: #E55473;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.hot-deal-info button:hover {
+    background-color: #e791a3;
+    transition: 0.2s;
+}
+
+.hot-deal-images img {
+    width: 220px;
 }
